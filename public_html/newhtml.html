@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                 margin: 0px;
+                 padding: 0px;
+            }
+            ul{
+                 list-style-type: none;
+                 margin: 0px;
+                 padding: 0px;
+                 height: 60px;
+                 width: 100%;
+                   top: 0;
+                 background-color: #66ffff;
+                  position: fixed; 
+                  
+            }
+            li{
+                padding: 10px 25px 10px 30px;
+                display: inline;
+                float: left;
+                text-align: center;
+            }
+            li:hover{
+                background-color: greenyellow;
+                color:white;
+            }
+           .active {
+                background-color: #04AA6D;
+                color: white;
+              }
+              p{
+                  text-align:center;
+                
+              }
+              .dropdown{
+                  position: relative;
+                  display: inline-block;
+                  
+              }
+              .dropdownbtn{
+                  background-color: #4CAF50;
+                    color: white;
+                    padding: 16px;
+                    font-size: 16px;
+                    border: none;
+                                }
+                                .dropdown-content{
+                                     display: none;
+                                position: absolute;
+                                 background-color: #f9f9f9;
+                                min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+               }
+            .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+            }
+            /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.gallery{
+    
+    float: left;
+    margin: 10px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+img{
+    margin: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #00b3ff;
+    border-width: 10px;
+    z-index: 1;
+   
+}
+.nameblock{
+    
+}
+p{
+     float: left;
+    background-color: #0000006b;
+    color: white;
+    position: absolute;
+    top: 352px;
+    left: 113px;
+    width: 15%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 10px;
+   visibility: hidden;
+    z-index: 2;
+}
+
+img:hover + p {
+  visibility: visible;
+}
+img:hover{
+       outline: black;
+    outline-style: solid;
+}
+        </style>
+       
+    </head>
+    <body>
+        
+     
+        <ul>
+            
+            <li class="active">home</li>
+            <li>state</li>
+            <li>city</li>
+            <li>address</li>
+            
+        </ul>
+        
+        <div class="dropdown">
+            <button class="dropdownbtn">
+                dropdown
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+        </div>
+        <div>
+<!--            <div class="gallery">
+                
+                <img src="assets/img/sanket.jpg" alt="" width="20%" height="auto"/>
+                <div>
+                    <p>my name is sanket </p>
+                </div>
+                
+                 
+                <img src="assets/img/sanket.jpg" alt="" width="20%" height="auto"/>
+                <div>
+                    <p>my name is sanket </p>
+                </div>
+                
+                 
+                <img src="assets/img/sanket.jpg" alt="" width="20%" height="auto"/>
+                <div>
+                    <p>my name is sanket </p>
+                </div>
+                
+                <img src="assets/img/sanket.jpg" alt="" width="20%" height="auto"/>
+                <div>
+                    <p>my name is sanket </p>
+                </div>
+              
+              <p>my name is sanket </p>
+            </div>-->
+<button   style="text-align: center; margin-top: 50%; ">cancel</button>
+        </div>
+       
+    </body>
+</html>
